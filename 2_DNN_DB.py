@@ -9,7 +9,7 @@ ABOUT:  This simple program intend to train the data of Dittus-Boelter
         This specific program is to show how hyperparameters can influence the performance and how to find them.
         This program can take upto 30-60 minutes to run on a single core.
 DEPENDS ON: Python3,XLRD, NumPy, Sklearn, Matplotlib, Pandas
-DATE:   11.07.2019
+DATE:   11.01.2019
 AUTHOR: Sandeep Pandey (sandeep.pandey@ike.uni-stuttgart.de)
 LINCENSE: GPL-3.0
 '''
