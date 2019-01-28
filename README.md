@@ -3,7 +3,8 @@ ML4DB acronymed for Machine Learning for Dittus-Boelter equation, and it is a si
 
   - The database is derived from the [exact equation](https://en.wikipedia.org/wiki/Nusselt_number#Dittus-Boelter_equation) and provided in [DittusBoelterDatabase.csv](https://github.com/ikespand/ml4db/blob/master/DittusBoelterDatabase.csv). One can regenerate the database with the attached [MATLAB script](https://github.com/ikespand/ml4db/blob/master/0_generate_DB_data.m). 
   - Attached first [Python script](https://github.com/ikespand/ml4db/blob/master/1_ML4DB_All.py) can be used to read, train and test the [DittusBoelterDatabase.csv](https://github.com/ikespand/ml4db/blob/master/DittusBoelterDatabase.csv). It shows the uses of different machine learning algorithm with some initial guess of hyperparameters.
-  - Second [script](https://github.com/ikespand/ml4db/blob/master/2_DNN_DB.py) shows the implementation of deep neural network on the same database. Grid search, which is often used to find best hyperparameter, is also included.
+  - Second [script](https://github.com/ikespand/ml4db/blob/master/2_DNN_DB.py) shows the implementation of deep neural network (DNN) on the same database. Grid search, which is often used to find best hyperparameter, is also included.
+   - Third [script](https://github.com/ikespand/ml4db/blob/master/3_DNN_TensorFlow.py) shows the implementation of DNN on the same database using [TensorFlow](https://www.tensorflow.org/). A high level API for TensorFlow, named Keras, is used.
 
 ### Dependencies
 - Python3
@@ -11,3 +12,6 @@ ML4DB acronymed for Machine Learning for Dittus-Boelter equation, and it is a si
 - Sklearn
 - Matplotlib
 - Pandas
+- TensorFlow
+- Keras
+- seaborn
